@@ -1,0 +1,107 @@
+#last{
+
+  padding: 50px 0;
+  background: #232323;
+  .last{
+    &--block{
+      display: flex;
+    }
+    &--title{
+      font-family: 'Muller',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 36px;
+      color: #FFFFFF;
+      padding-bottom: 30px;
+    }
+    &--desc{
+      font-family: 'SF Pro Display',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 130%;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    &--input2{
+      padding-left: 9rem;
+    }
+    &--input{
+      &:required {
+        color: red;
+      }
+      font-family: 'SF Pro Display',sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      color: rgba(27, 27, 27, 0.3);
+      width: 590px;
+      height: 63px;
+      background: #FFF8F8;
+      border-radius: 20px;
+      outline: none;
+      padding: 0 10px;
+      margin-bottom: 18px;
+    }
+    &--check{
+      width: 14px;
+      height: 14px;
+      margin-right: -8px;
+    }
+    &--title2{
+      font-family: 'SF Pro Display',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 130%;
+      color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+      padding-left: 20px;
+    }
+    &--btn{
+      font-family: 'SF Pro Display',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FFFFFF;
+      width: 590px;
+      height: 58px;
+      background: #EC3025;
+      border-radius: 44px;
+      margin-top: 30px;
+    }
+    &--meet{
+      width: 582px;
+      height: 350px;
+      background: #FFFFFF;
+      border-radius: 30px;
+      text-align: center;
+    }
+    &--image{
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      position: relative;
+      left: 14rem;
+      top: 80px;
+    }
+
+    &--title3{
+      font-family: 'SF Pro Display',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 130%;
+      color: #000000;
+      padding-top: 90px;
+    }
+  }
+}
+
+
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1040px) {
+
+}
